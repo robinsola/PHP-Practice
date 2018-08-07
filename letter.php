@@ -1,20 +1,21 @@
 <?php
-    $friend_name = $_GET["recipient"];
-    $my_name = $_GET["sender"];
+    $person1 = $_GET["person1"];
+    $person2 = $_GET["person2"];
+    $animal = $_GET["animal"];
+    $exclamation = $_GET["exclamation"];
+    $verb = $_GET["verb"];
+    $noun = $_GET["noun"];
 ?>
 
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Greetings!</title>
+    <title>Mad Lib</title>
 </head>
 <body>
-    <h1>Greetings From Afar</h1>
-    <p>Dear <?php echo $friend_name ?>,</p>
-    <p>How are you? I hope that you are having a nice weekend. I'm vacationing in the mountains of Tibet while I learn programming! </p>
-    <p><?php echo $friend_name ?>, you would not believe how cold it is here. I should have gone to Hawaii instead. But I like programming a lot, so I've got that going for me. </p>
-    <p>Looking forward to seeing you soon, I'll bring you back a souvenir. </p>
-    <p>Cheers,</p>
-    <p><?php echo $my_name ?></p>
+    <h1>A fantastical adventure</h1>
+    <p>One day, <?php echo $person1 ?> and <?php echo $person2 ?> were walking through the woods, when suddenly a giant <?php echo $animal ?> appeared. </p>
+    <p>"<?php echo $exclamation ?>", <?php echo $person1 ?> cried. </p>
+    <p>The two of them <?php echo $verb ?> as quickly possible, and when they were safe, <?php echo $person1 ?> and <?php echo $person2 ?> gave each other a giant <?php echo $noun ?>.</p>
 </body>
 </html>
